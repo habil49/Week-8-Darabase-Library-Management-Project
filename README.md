@@ -36,37 +36,6 @@ ERD Diagram
 
 An Entity-Relationship Diagram (ERD) is used to visually represent the relationships among the entities. It shows how tables like Authors, Books, Publishers, Categories, Members, and Loans are interconnected.
 
-Installation
-
-Make sure you have MySQL installed and running on your system.
-
-Clone the repository from GitHub:
-
-git clone https://github.com/yourusername/library-management-system.git
-
-Navigate to the project directory:
-
-cd library-management-system
-
-Import the database schema:
-
-mysql -u your_username -p your_database_name < library_management_system.sql
-
-Usage
-
-Connect to the MySQL database:
-
-mysql -u your_username -p
-
-Use the database:
-
-USE library_management_system;
-
-View the tables:
-
-SHOW TABLES;
-
-Run queries or manage data as needed.
 
 Sample Data
 
